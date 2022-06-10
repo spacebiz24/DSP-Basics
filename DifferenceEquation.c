@@ -80,8 +80,8 @@ void Solver()
 void printSequence()
 {
     printf("The output of the sequence is:\n");
-    for (int i = 0; i < N; i++)
-        printf("Y[%d] = %f", i, Y[i]);
+    for (int i = 0; i < I; i++)
+        printf("Y[%d] = %f\n", i+1, Y[i]);
 }
 
 void main(void)
