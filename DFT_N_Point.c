@@ -39,6 +39,9 @@ void printSequence()
     printf("\n%d point DFT of given sequence:\n\n", N);
     for (int k = 0; k < N; k++)
         printf("%f + (%f)i\n", X_Re[k], X_Img[k]);
+    printf("\nMagnitude of DFT is:\n");
+    for (int k = 0; k < N; k++)
+        printf("%f\n", MagX[k]);
 }
 
 void main(void)
